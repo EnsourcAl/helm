@@ -1,14 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HELM</title>
-</head>
-<body>
-<main>
-<h1>HELM</h1>
-<p>This is the phone door. The laptop publishes the app shell onto this page.</p>
-</main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0E0D0B" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="HELM" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https://api.github.com https://*.trycloudflare.com; img-src 'self' blob: data:; media-src 'self' blob:; frame-src https://*.trycloudflare.com; worker-src 'self'; base-uri 'self'; form-action 'self'"
+    />
+    <title>HELM</title>
+    <link rel="icon" href="/helm/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="/helm/icons/icon-180.png" />
+    <link rel="manifest" href="/helm/manifest.webmanifest" />
+    <style>
+      html { background: #0e0d0b; color: #f3ede4; }
+      html[data-theme="light"] { background: #f4f0e8; color: #1c1915; }
+    </style>
+    <script src="/helm/boot.js"></script>
+    <script type="module" crossorigin src="/helm/assets/index-Bl1CBkAj.js"></script>
+    <link rel="stylesheet" crossorigin href="/helm/assets/style-BDzod3pC.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 </html>
